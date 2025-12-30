@@ -37,7 +37,6 @@
   font-weight: 400;
   letter-spacing: 13.5px;
   margin: 0;
-  color: rgba(0, 0, 0, 0.9);
 }
 
 .hero-undertekst {
@@ -68,7 +67,6 @@
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 2.4px;
-  color: #000;
 }
 
 /*SCROLL GALLERY*/
@@ -132,7 +130,7 @@
 /* DIGITAL REJSE SECTION */
 
 .digital-rejse {
-  padding: 56px 20px 40px;
+  padding: 40px 20px 40px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -147,8 +145,7 @@
   font-size: 48px;
   font-weight: 400;
   letter-spacing: 2.4px;
-  margin: 0 0 32px;
-  color: #000;
+  margin-bottom: 5px;
   text-align: center;
 }
 
@@ -180,7 +177,7 @@
   font-weight: 200;
   line-height: 25px;
   margin: 0;
-  color: #000;
+  padding-right: 24px;
 }
 
 .digital-p strong {
