@@ -128,3 +128,61 @@
     animation: none;
   }
 }
+
+/* DIGITAL REJSE SECTION */
+
+.digital-rejse {
+  padding: 56px 20px 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "title"
+    "media"
+    "text";
+  gap: 18px;
+}
+
+.digital-rejse h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 2.4px;
+  margin: 0 0 32px;
+  color: #000;
+  text-align: center;
+}
+
+.digital-img {
+  position: relative;
+  margin: 0;
+  padding-top: 160px;
+  padding-bottom: 20px;
+}
+
+.digital-img img:first-child {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.digital-overlay {
+  position: absolute;
+  top: 30px;
+  right: 34px;
+  width: 210px;
+  height: auto;
+  pointer-events: none;
+}
+
+.digital-p {
+  grid-area: text;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 25px;
+  margin: 0;
+  color: #000;
+}
+
+.digital-p strong {
+  font-weight: 500;
+}
