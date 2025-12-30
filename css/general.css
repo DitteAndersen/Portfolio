@@ -93,8 +93,8 @@ img {
   color: #f6f4ef;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 26px;
-  padding: 28px 16px 34px;
+  gap: 48px;
+  padding: 46px 23px 60px;
 }
 
 .footer a {
@@ -104,24 +104,65 @@ img {
 
 .footer h3,
 .footer h4 {
-  font-size: 20px; /* mobil-Figma */
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 350;
   line-height: 25.67px;
-  margin: 0 0 10px;
+  margin: 0 0 8px;
 }
 
-.footer p {
-  font-size: 16px; /* mobil-Figma */
-  font-weight: 300;
-  line-height: 24px;
+.footer > div:first-child p a {
+  display: block;
+  margin: 0 0 6px;
+  padding: 0;
+  font-weight: 200;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 14px;
+}
+
+.social-icons a {
+  display: inline-flex;
+}
+
+.social-icons img {
+  width: 36px;
+  height: auto;
+  display: block;
+}
+
+/* Kontakt: tæt og på samme linje */
+.footer-column:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 32px;
   margin: 0;
+}
+
+.contact-item img {
+  width: 18px;
+  height: auto;
+  display: block;
 }
 
 /* ======================
    DESKTOP
    ====================== */
+
 @media (min-width: 1024px) {
-  /* nav: burger væk, menu inline */
   .burger {
     display: none;
   }
@@ -134,10 +175,33 @@ img {
     padding: 0;
   }
 
-  /* footer: 3 kolonner (da du har 3 blokke) */
-  .footer {
-    grid-template-columns: repeat(3, 1fr);
-    padding: 60px 10vw;
-    gap: 40px;
+ .footer {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 60px 8vw;
+    gap: 0;
+    align-items: start;
+  }
+
+  /* venstre kolonne */
+  .footer > div:first-child {
+    justify-self: start;
+    text-align: left;
+  }
+
+  /* midterste kolonne */
+  .footer-column:nth-child(2) {
+    justify-self: center;
+    text-align: center;
+  }
+
+  .footer-column:nth-child(2) .social-icons {
+    justify-content: center;
+    gap: 26px;
+  }
+
+  /* højre kolonne */
+  .footer-column:nth-child(3) {
+    justify-self: end;
+    text-align: left;
   }
 }
