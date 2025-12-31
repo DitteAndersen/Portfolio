@@ -23,19 +23,16 @@ img {
 
 /* logo */
 .topbar-logo {
-  width: 46px; /* mobil-Figma */
+  width: 46px; 
   height: auto;
 }
 
-/* ======================
-   BURGER MENU
-   ====================== */
+/*BURGER MENU*/
 .nav {
   position: relative;
   z-index: 5;
 }
 
-/* burger ikon */
 .burger {
   width: 28px;
   display: flex;
@@ -47,47 +44,46 @@ img {
 .burger span {
   height: 2px;
   width: 100%;
-  background: #584337; /* mobil-Figma tone */
+  background: #000; 
   display: block;
 }
 
-/* menu (lukket på mobil) */
 .nav ul {
   position: absolute;
-  top: 42px;
-  right: 0;
+  top: 52px;
+  right: 8px;
+
   display: none;
   flex-direction: column;
   align-items: flex-end;
-  gap: 12px;
+  gap: 14px;
+
   list-style: none;
   margin: 0;
-  padding: 12px 0;
+
+  padding: 18px 20px;
+  background: #e1dfd7; 
+  border-radius: 8px;
 }
 
-/* burgermenu åben (menu.js skal toggle .open på .nav) */
+
 .nav.open ul {
   display: flex;
 }
-
-/* links */
 .nav ul li a {
   text-decoration: none;
   color: #1d1d1b;
-  font-size: 18px; /* mobil-Figma */
+  font-size: 18px; 
   font-weight: 250;
-  line-height: 25.67px; /* mobil-Figma */
+  line-height: 25.67px; 
   white-space: nowrap;
 }
 
-/* hover */
 .nav ul li a:hover {
   opacity: 0.6;
 }
 
-/* ======================
-   FOOTER
-   ====================== */
+/* FOOTER */
 .footer {
   background: #1d1d1b;
   color: #f6f4ef;
@@ -134,7 +130,6 @@ img {
   display: block;
 }
 
-/* Kontakt: tæt og på samme linje */
 .footer-column:nth-child(3) {
   display: flex;
   flex-direction: column;
@@ -158,9 +153,7 @@ img {
   display: block;
 }
 
-/* ======================
-   DESKTOP
-   ====================== */
+/* DESKTOP*/
 
 @media (min-width: 1024px) {
   .burger {
@@ -173,9 +166,11 @@ img {
     flex-direction: row;
     gap: 60px;
     padding: 0;
+    background-color: transparent;
+    padding-right: 5vw;
   }
 
- .footer {
+  .footer {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 60px 8vw;
     gap: 0;
