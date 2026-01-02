@@ -10,6 +10,7 @@ body {
 
 img {
   width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -22,8 +23,10 @@ img {
 }
 
 /* logo */
+
+.topbar a img,
 .topbar-logo {
-  width: 46px; 
+  width: 46px;
   height: auto;
 }
 
@@ -44,7 +47,7 @@ img {
 .burger span {
   height: 2px;
   width: 100%;
-  background: #000; 
+  background: #000;
   display: block;
 }
 
@@ -62,10 +65,9 @@ img {
   margin: 0;
 
   padding: 18px 20px;
-  background: #e1dfd7; 
+  background: #e1dfd7;
   border-radius: 8px;
 }
-
 
 .nav.open ul {
   display: flex;
@@ -73,9 +75,9 @@ img {
 .nav ul li a {
   text-decoration: none;
   color: #1d1d1b;
-  font-size: 18px; 
+  font-size: 18px;
   font-weight: 250;
-  line-height: 25.67px; 
+  line-height: 25.67px;
   white-space: nowrap;
 }
 
