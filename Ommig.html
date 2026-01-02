@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,14 +11,16 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Anton&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/ommig.css" />
   </head>
 
   <body>
     <header class="topbar">
       <a href="index.html" class="Portfolio-link">
-        <img src="images/logo.png" alt="Portfolio-logo" class="topbar" />
+        <img src="images/logo.png" alt="Portfolio-logo" class="topbar-logo" />
       </a>
 
       <nav class="nav">
@@ -31,13 +32,135 @@
 
         <ul>
           <li><a href="index.html">Hjem</a></li>
-          <li><a href="Ommig.html">Om mig</a></li>
-          <li><a href="Temaer.html">Temaer</a></li>
-          <li><a href="Process.html">Process</a></li>
+          <li><a href="ommig.html">Om mig</a></li>
+          <li><a href="temaer.html">Temaer</a></li>
+          <li><a href="process.html">Process</a></li>
         </ul>
       </nav>
     </header>
-    <main></main>
+
+    <main>
+     <section class="om-mig">
+  <div class="om-mig-title">
+    <img src="svg/cirkel.svg" alt="" class="om-mig-cirkel" aria-hidden="true" />
+    <h1>OM MIG</h1>
+  </div>
+</section>
+
+
+        <div class="om-intro">
+          <div class="om-tekst">
+            <p>
+              Mit navn er Ditte Helene Andersen. Jeg er 27 år gammel, bosat på
+              Nørrebro og læser på 1. semester
+              <strong>multimediedesign</strong> på Erhvervsakademi København.
+              Jeg drømmer om at arbejde med grafisk design og webudvikling.
+            </p>
+
+            <p>
+              Jeg er <strong>intuitivt kreativ</strong> og arbejder ofte
+              eksperimenterende, hvor idéer udvikler sig gennem processen.
+            </p>
+
+            <p>
+              Som person er jeg <strong>engageret</strong> og
+              <strong>idérig</strong> og trives både i samarbejde og
+              selvstændigt arbejde, mens jeg udvikler mine kompetencer inden for
+              digitalt design, web og brugeroplevelse.
+            </p>
+          </div>
+
+          <img src="images/mig.png" alt="Portræt af mig" />
+        </div>
+      </section>
+
+      <section class="om-tabs">
+        <img
+          src="svg/streg2.svg"
+          alt=""
+          class="om-mig-boelge"
+          aria-hidden="true"
+        />
+
+        <div class="tab-nav">
+          <button class="tab is-active" type="button" data-tab="faerdigheder">
+            Færdigheder
+          </button>
+          <button class="tab" type="button" data-tab="erfaring">
+            Erfaring
+          </button>
+          <button class="tab" type="button" data-tab="uddannelse">
+            Uddannelse
+          </button>
+        </div>
+
+        <div class="tab-content is-active" id="faerdigheder">
+          <h3>Adobe-programmerne</h3>
+          <p>Photoshop, Figma, Illustrator, Firefly, Premiere Pro.</p>
+
+          <h3>Kodning</h3>
+          <p>Visual Studio Code</p>
+
+          <h3>Arbejdsmetoder</h3>
+          <p>Konceptudvikling, kommunikation og samarbejde.</p>
+        </div>
+
+        <div class="tab-content" id="erfaring">
+          <p>Her kan du tilføje din erfaring.</p>
+        </div>
+
+        <div class="tab-content" id="uddannelse">
+          <p>Her kan du tilføje din uddannelse.</p>
+        </div>
+
+        <div class="tools">
+          <figure>
+            <img src="images/adobe.png" alt="Adobe Creative Cloud" />
+            <figcaption>Adobe creative cloud</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/github.png" alt="Github" />
+            <figcaption>Github</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/figma.png" alt="Figma" />
+            <figcaption>Figma</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/vscode.png" alt="Visual Studio Code" />
+            <figcaption>Visual Studio Code</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="semester">
+        <h2>MIT 1. SEMESTER</h2>
+
+        <p>
+          På 1. semester har jeg fået en grundlæggende forståelse for
+          designprocesser, webudvikling og samarbejde i projekter. Fagligt har
+          jeg lært at arbejde med HTML, CSS, Figma og Git, og personligt har jeg
+          udviklet mine evner til at arbejde struktureret og samarbejde i
+          grupper.
+        </p>
+      </section>
+
+      <section class="galleri">
+        <h2>TIDLIGERE ARBEJDE & KREATIVE PROJEKTER</h2>
+
+        <div class="galleri-grid">
+          <img src="images/arbejde1.jpg" alt="Kreativt projekt 1" />
+          <img src="images/arbejde2.jpg" alt="Kreativt projekt 2" />
+          <img src="images/arbejde3.jpg" alt="Kreativt projekt 3" />
+          <img src="images/arbejde4.jpg" alt="Kreativt projekt 4" />
+          <img src="images/arbejde5.jpg" alt="Kreativt projekt 5" />
+          <img src="images/arbejde6.jpg" alt="Kreativt projekt 6" />
+        </div>
+      </section>
+    </main>
 
     <footer class="footer">
       <div>
@@ -79,6 +202,7 @@
         </div>
       </div>
     </footer>
+
     <script src="main.js"></script>
   </body>
 </html>

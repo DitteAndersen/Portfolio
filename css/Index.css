@@ -339,7 +339,8 @@
 
   .digital-overlay {
     top: -145px;
-    right: 140px;
+    right: auto;
+    left: clamp(120px, 14vw, 240px);
     width: 240px;
   }
 

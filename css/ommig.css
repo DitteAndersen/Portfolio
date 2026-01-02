@@ -1,0 +1,67 @@
+/* OM MIG – INTRO (desktop) */
+.om-mig {
+  position: relative;
+  padding: 120px 63px 40px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.om-mig-title {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 40px;
+}
+
+.om-mig h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 65px;
+  font-weight: 400;
+  letter-spacing: 4.1px;
+  line-height: 1;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.om-mig-cirkel {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-40%, -55%);
+  width: 400px;
+  height: auto;
+  pointer-events: none;
+  z-index: 0;
+  display: block;
+}
+
+.om-intro {
+  display: grid;
+  grid-template-columns: 587px 420px;
+  column-gap: 72px;
+  align-items: start;
+  padding-left: 100px;
+  margin-top: 40px;
+}
+
+.om-tekst p {
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 200;
+  margin: 0 0 28px;
+}
+
+.om-tekst strong {
+  font-weight: 600;
+}
+
+.om-intro img {
+  width: 420px;
+  height: 556px;
+  object-fit: cover;
+  border-radius: 10px;
+  outline: 6px solid #fffdf5;
+  outline-offset: -3px;
+  display: block;
+  justify-self: end;
+}
