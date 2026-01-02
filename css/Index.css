@@ -26,11 +26,11 @@
   z-index: 1;
 }
 
-/* PORTFOLIO — lidt op */
+/* PORTFOLIO */
 .hero-title {
   position: absolute;
   left: 17px;
-  top: 320px;
+  top: 280px;
 
   font-family: "Anton", sans-serif;
   font-size: 75px;
@@ -56,7 +56,7 @@
 .hero-scroll {
   position: absolute;
   left: 50%;
-  top: 820px;
+  top: 850px;
   transform: translateX(-50%);
   z-index: 9999;
 
@@ -65,7 +65,7 @@
   visibility: visible !important;
 
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 2.4px;
 }
 
@@ -94,7 +94,7 @@
 
   animation: move-horizontal linear both;
   animation-timeline: --gallery;
-  animation-range: contain 0% contain 100%;
+  animation-range: contain 0% contain 150%;
 }
 
 .gallery-strip .h-card {
@@ -211,4 +211,157 @@
   outline: 6px solid #fffdf5;
   outline-offset: -3px;
   display: block;
+}
+
+/* DESKTOP */
+
+@media (min-width: 1024px) {
+  .hero {
+    height: 976px;
+    overflow: hidden;
+  }
+
+  .hero-line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    object-fit: contain;
+    object-position: center;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .hero-mid {
+    z-index: 1;
+  }
+
+  .hero-title {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translateX(-50%);
+    font-size: 200px;
+    font-weight: 400;
+    letter-spacing: 36px;
+    margin: 0;
+  }
+
+  .hero-undertekst {
+    position: absolute;
+    left: 50%;
+    top: 420px;
+    transform: translateX(-50%);
+
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 40px;
+    letter-spacing: 2.4px;
+    margin: 0;
+  }
+
+  .hero-scroll {
+    position: absolute;
+    left: 50%;
+    top: 720px;
+    transform: translateX(-50%);
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 2.4px;
+    margin: 0;
+  }
+
+  .gallery-strip .sticky-wrapper {
+    padding: 32px 64px;
+  }
+
+  .gallery-strip .cards-track {
+    gap: 32px;
+  }
+
+  .gallery-strip .h-card {
+    width: 380px;
+    height: 560px;
+    border-radius: 14px;
+  }
+
+  .digital-rejse {
+    padding: 102px 40px 0 63px;
+    grid-template-columns: 515px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      "title media"
+      "text  media";
+    column-gap: 75px;
+    row-gap: 32px;
+    align-items: start;
+  }
+
+  .digital-rejse h2 {
+    grid-area: title;
+    text-align: left;
+    font-size: 72px;
+    font-weight: 300;
+    letter-spacing: 3.6px;
+    line-height: 1;
+    margin: 0;
+  }
+
+  .digital-p {
+    grid-area: text;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 200;
+    margin-top: 40px;
+    max-width: 515px;
+  }
+
+  .digital-p strong {
+    font-weight: 400;
+  }
+
+  .digital-img {
+    grid-area: media;
+    padding-top: 0;
+    margin-top: 180px;
+    justify-self: start;
+  }
+
+  .digital-img img:first-child {
+    width: min(600px, 100%);
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .digital-overlay {
+    top: -145px;
+    right: 140px;
+    width: 240px;
+  }
+
+  .semesterprojekter {
+    padding: 90px 63px 80px;
+  }
+
+  .semesterprojekter h2 {
+    font-size: 40px;
+    letter-spacing: 2.8px;
+    margin-bottom: 90px;
+    margin-top: 70px;
+  }
+
+  .semesterprojekter > div {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+    margin-bottom: 80px;
+  }
+
+  .semesterprojekter img {
+    height: 100%;
+    object-fit: cover;
+  }
 }
