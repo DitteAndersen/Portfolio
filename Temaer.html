@@ -14,13 +14,15 @@
     />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/temaer.css" />
   </head>
 
   <body>
     <header class="topbar">
-      <a href="index.html" class="Portfolio-link">
-        <img src="images/logo.png" alt="Portfolio-logo" class="topbar-logo" />
-      </a>
+      <div class="topbar-left">
+        <img src="images/logo.png" alt="Logo" class="topbar-logo" />
+        <p class="semester-title">1 SEMESTER</p>
+      </div>
 
       <nav class="nav">
         <div class="burger">
@@ -37,11 +39,72 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+
+    <main>
+      <!-- TEMA OVERSIGT (DEN DU HAR LAVET) -->
+      <section class="tema-liste">
+        <div class="tema-header">
+          <span>Nr</span>
+          <span>Temaer</span>
+          <span>Go</span>
+        </div>
+
+        <a class="tema-row" href="#tema-01">
+          <span class="nr">01</span>
+          <span class="titel">INTROUGE</span>
+          <span class="go">↗</span>
+        </a>
+
+        <a class="tema-row" href="#tema-02">
+          <span class="nr">02</span>
+          <span class="titel">GRUNDLÆGGENDE WEB</span>
+          <span class="go">↗</span>
+        </a>
+
+        <a class="tema-row" href="#tema-03">
+          <span class="nr">03</span>
+          <span class="titel">UX/UI</span>
+          <span class="go">↗</span>
+        </a>
+
+        <a class="tema-row" href="#tema-04">
+          <span class="nr">04</span>
+          <span class="titel">BRUGERGRÆNSEFLADEUDVIKLING</span>
+          <span class="go">↗</span>
+        </a>
+
+        <a class="tema-row" href="#tema-05">
+          <span class="nr">05</span>
+          <span class="titel">GRUNDLÆGGENDE INDHOLD</span>
+          <span class="go">↗</span>
+        </a>
+
+        <a class="tema-row" href="#tema-06">
+          <span class="nr">06</span>
+          <span class="titel">PORTFOLIO EKSAMEN</span>
+          <span class="go">↗</span>
+        </a>
+      </section>
+
+      <section class="portfolio-hero">
+        <h1>MIT PORTFOLIO</h1>
+      </section>
+
+      <!-- SELVE TEMA-INDHOLDET (kommer bagefter) -->
+      <section id="tema-01">
+        <!-- intro uge indhold -->
+      </section>
+
+      <section id="tema-02">
+        <!-- grundlæggende web -->
+      </section>
+
+      <!-- osv -->
+    </main>
 
     <footer class="footer">
       <div>
-        <h3>HURTIGE LINKS</h3>
+        <h2>HURTIGE LINKS</h2>
         <p>
           <a href="index.html">Forside</a>
           <a href="ommig.html">Om mig</a>
@@ -51,7 +114,7 @@
       </div>
 
       <div class="footer-column">
-        <h3>SOCIALE MEDIER</h3>
+        <h2>SOCIALE MEDIER</h2>
         <div class="social-icons">
           <a href="#" aria-label="Instagram">
             <img src="images/instagram.png" alt="Instagram" />
@@ -66,7 +129,7 @@
       </div>
 
       <div class="footer-column">
-        <h3>KONTAKT</h3>
+        <h2>KONTAKT</h2>
 
         <div class="contact-item">
           <img src="images/email.png" alt="Email ikon" />
