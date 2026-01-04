@@ -1,0 +1,932 @@
+/*MOBILE FIRST STYLING FOR TEMAER PAGE*/
+
+.topbar {
+  border-bottom: 2px solid #1d1d1b;
+  background: #fffdf5;
+  padding: 16px;
+}
+
+.semester-title {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 12px 0 6px 0;
+}
+
+.tema-liste {
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.tema-header {
+  display: grid;
+  grid-template-columns: 50px 1fr 40px;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 2px solid #1d1d1b;
+  font-size: 13px;
+}
+
+.tema-header span:first-child {
+  padding-left: 0;
+}
+
+.tema-header span:last-child {
+  justify-self: end;
+}
+
+.tema-row {
+  display: grid;
+  grid-template-columns: 50px 1fr 40px;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 2px solid #1d1d1b;
+  text-decoration: none;
+  color: inherit;
+}
+
+.tema-row .nr {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.tema-row .titel {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  line-height: 1.2;
+}
+
+.tema-row .go {
+  justify-self: end;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.tema-row:active {
+  background: rgba(113, 105, 81, 0.15);
+}
+
+.portfolio-hero {
+  padding: 40px 16px;
+}
+
+.portfolio-hero h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin: 0;
+  text-align: left;
+  margin-bottom: 100%;
+}
+/****************** TEMA SITE ********************/
+
+.tema-item summary {
+  list-style: none;
+}
+.tema-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.tema-item summary.tema-row {
+  cursor: pointer;
+}
+
+.tema-content {
+  padding: 16px 0 24px;
+  border-bottom: 2px solid #1d1d1b;
+}
+
+.tema-item[open] > .tema-row {
+  background: rgba(113, 105, 81, 0.08);
+}
+.tema-row .go {
+  transition: transform 0.15s ease;
+}
+
+.tema-item[open] .go {
+  transform: rotate(45deg);
+}
+
+/******************** INTROUGE **********************/
+.tema-content {
+  padding: 32px 16px 70px;
+}
+
+.tema-intro-title {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0.65px;
+  text-transform: uppercase;
+  margin: 0 0 40px;
+}
+
+.tema-block-title {
+  font-family: "Anton", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 50px 0 22px;
+}
+.tema-block-title2 {
+  font-family: "Anton", sans-serif;
+  font-size: 24px;
+  letter-spacing: 5px;
+  text-align: left;
+  margin: 0 0 30px;
+  margin-left: 13%;
+}
+
+.video-grid,
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 26px;
+  align-items: start;
+}
+
+.image-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-wrap img,
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-link {
+  margin-top: 12px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+  color: #000;
+  text-decoration: underline;
+}
+.note-box {
+  padding: 0;
+  border: 0;
+}
+
+.note-box h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.75px;
+  margin: 0 0 12px;
+}
+
+.note-box ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.note-box li {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0.75px;
+}
+
+.tema-strong {
+  font-family: "Anton", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.65px;
+  margin: 26px 0 20px;
+  margin-top: 15%;
+  margin-bottom: 25%;
+}
+
+.tema-text {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0.75px;
+  margin-bottom: 10%;
+}
+
+.tema-text ul {
+  margin: 0 0 16px;
+  padding-left: 18px;
+}
+
+.image-wrap video {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: center;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+/******************** TEMA 3********************************/
+
+#tema-03 {
+  font-family: "Inter", sans-serif;
+}
+
+#tema-03 .ux-intro {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.65px;
+  text-transform: uppercase;
+  margin: 0 0 40px;
+}
+
+#tema-03 .ux-block {
+  margin: 0 0 70px;
+}
+
+#tema-03 .ux-week {
+  font-family: "Anton", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 50px 0 22px;
+}
+
+#tema-03 .ux-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 26px;
+  align-items: start;
+}
+
+#tema-03 .ux-note {
+  padding: 0;
+  border: 0;
+}
+
+#tema-03 .ux-note ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+#tema-03 .ux-note li {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 35px;
+  letter-spacing: 0.75px;
+  margin: 0;
+}
+
+#tema-03 .ux-label {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 34px 0 18px;
+}
+
+#tema-03 .ux-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tema-03 .ux-media img,
+#tema-03 .ux-media video {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #f0ead0;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+#tema-03 .ux-grid .ux-media img {
+  max-width: 360px;
+}
+
+#tema-03 .ux-assets {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 26px;
+  margin: 10px 0 0;
+}
+
+#tema-03 .ux-assets img {
+  max-width: 360px;
+}
+
+#tema-03 .ux-summary {
+  font-family: "Anton", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.65px;
+  margin: 26px 0 0;
+}
+
+#tema-03 .ux-text {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 35px;
+  letter-spacing: 0.75px;
+  margin-top: 18px;
+}
+
+#tema-03 .ux-text ul {
+  margin: 0 0 16px;
+  padding-left: 18px;
+}
+
+#tema-03 .ux-text p {
+  margin: 0 0 18px;
+}
+
+#tema-03 .ux-stud {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 26px;
+  align-items: start;
+}
+
+#tema-03 .ux-media video {
+  max-width: 360px;
+}
+
+#tema-03 .ux-link {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+  color: #000;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/**************************DESKTOP ****************************/
+
+@media (min-width: 1024px) {
+  /**** TEMAER KOLONNER****/
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 63px;
+    width: 2px;
+    background-color: #1d1d1b;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .semester-title {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-top: -34px;
+    margin-bottom: 2px;
+    margin-left: 80px;
+  }
+
+  .tema-liste {
+    padding: 0 63px;
+  }
+
+  .tema-header {
+    grid-template-columns: 110px 1fr 110px;
+    padding: 12px 0;
+    font-size: 14px;
+  }
+
+  .tema-header span:first-child {
+    padding-left: 40px;
+  }
+
+  .tema-header span:last-child,
+  .tema-row .go {
+    padding-right: 10px;
+  }
+
+  .tema-row {
+    grid-template-columns: 110px 1fr 110px;
+    padding: 4px 0;
+  }
+  .tema-row:hover,
+  .tema-row:focus-visible {
+    background: rgba(113, 105, 81, 0.146);
+  }
+
+  .tema-row:active {
+    background: rgba(113, 105, 81, 0.146);
+  }
+
+  .tema-row .nr {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+
+  .tema-row .titel {
+    font-size: 28px;
+    letter-spacing: 3px;
+    line-height: 1;
+  }
+
+  .tema-row .go {
+    font-size: 30px;
+  }
+
+  .portfolio-hero {
+    padding: 80px 63px;
+  }
+
+  .portfolio-hero h1 {
+    font-size: 150px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 13%;
+  }
+
+  /*TEMA 3******************************/
+
+  #tema-03 .ux-intro {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+    margin: 0 0 40px;
+  }
+
+  #tema-03 .ux-block {
+    margin: 0 0 70px;
+  }
+
+  #tema-03 .ux-week {
+    font-family: "Anton", sans-serif;
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 50px 0 22px;
+  }
+
+  #tema-03 .ux-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 26px;
+    align-items: start;
+  }
+
+  #tema-03 .ux-note {
+    padding: 0;
+    border: 0;
+  }
+
+  #tema-03 .ux-note ul {
+    margin: 0;
+    padding-left: 18px;
+  }
+
+  #tema-03 .ux-note li {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0.75px;
+  }
+
+  #tema-03 .ux-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #tema-03 .ux-label {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 34px 0 18px;
+  }
+
+  #tema-03 .ux-media img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* “kort” look bag billeder (som dine mobil screenshots) */
+  #tema-03 .ux-media img,
+  #tema-03 .ux-media video {
+    border-radius: 10px;
+  }
+
+  #tema-03 .ux-grid .ux-media img {
+    background: #f0ead0;
+    padding: 14px;
+  }
+
+  /* LOGO / WIREFRAME / FONTS stack på mobil */
+  #tema-03 .ux-assets {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 26px;
+    margin: 10px 0 0;
+  }
+
+  #tema-03 .ux-assets .ux-media img {
+    background: #f0ead0;
+    padding: 14px;
+  }
+
+  #tema-03 .ux-summary {
+    font-family: "Anton", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.65px;
+    margin: 26px 0 0;
+  }
+
+  #tema-03 .ux-text {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0.75px;
+    margin-top: 18px;
+  }
+
+  #tema-03 .ux-text ul {
+    margin: 0 0 16px;
+    padding-left: 18px;
+  }
+
+  #tema-03 .ux-text p {
+    margin: 0 0 18px;
+  }
+
+  /* UGE 3: mobil = stack */
+  #tema-03 .ux-stud {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 26px;
+    align-items: start;
+  }
+
+  #tema-03 .ux-media video {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    display: block;
+  }
+
+  #tema-03 .ux-link {
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 40%;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    color: #000;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  /******* INTROUGE ***************************************/
+
+  .tema-content {
+    padding: 40px 63px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .tema-intro-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 45px;
+    letter-spacing: 1.6px;
+    margin: 0 0 70px;
+    text-transform: uppercase;
+    margin-left: -6%;
+  }
+
+  .tema-block {
+    margin: 0 0 90px;
+  }
+
+  .tema-block-title {
+    font-family: "Anton", sans-serif;
+    font-size: 36px;
+    letter-spacing: 5px;
+    text-align: left;
+    margin: 0 0 30px;
+    margin-left: 15%;
+  }
+
+  .video-grid {
+    display: grid;
+    grid-template-columns: 1fr 420px;
+    gap: 70px;
+    align-items: start;
+  }
+
+  .image-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .video-link {
+    display: inline-block;
+    margin-top: 14px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    color: #000;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  /* NOTE-BOX BLÅ */
+  .note-box {
+    padding: 50px 50px;
+    background-image: url("../images/blaa_boks.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120% 95%;
+  }
+
+  .note-box h4 {
+    margin: 0 0 18px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+  }
+
+  .note-box ul {
+    margin: 0;
+    padding-left: 22px;
+  }
+
+  .note-box li {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    margin: 0;
+  }
+
+  .tema-block-title2 {
+    font-family: "Anton", sans-serif;
+
+    font-size: 36px;
+    letter-spacing: 5px;
+    text-align: left;
+    margin: 0 0 30px;
+    margin-left: 13%;
+  }
+  /* PRÆSENTATIONSKORT*/
+  .card-grid {
+    display: grid;
+    grid-template-columns: 1fr 420px;
+    gap: 70px;
+    align-items: start;
+    margin-top: 20px;
+  }
+
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    outline: 6px solid #fffdf5;
+    outline-offset: -3px;
+    display: block;
+    border-radius: 10px;
+  }
+
+  .tema-strong {
+    font-family: "Anton", sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    max-width: 620px;
+    margin: 40px 0 0;
+  }
+
+  .tema-text {
+    margin-top: 40px;
+    max-width: 1000px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+  }
+
+  .tema-text ul {
+    margin: 0 0 22px;
+    padding-left: 22px;
+  }
+
+  .tema-text p {
+    margin: 0 0 18px;
+  }
+
+  .image-wrap video {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin-right: 30%;
+  }
+  .note-box--uge1 {
+    padding: 60px 100px;
+    background-image: url("../images/blaa_boks.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 190% 100%;
+  }
+
+  .stud-grid {
+    display: flex;
+    align-items: flex-start;
+    gap: 70px;
+  }
+  .stud-grid .tema-text {
+    flex: 1;
+    max-width: 620px;
+  }
+  .stud-grid .image-wrap {
+    flex: 0 0 auto;
+    align-items: flex-start;
+    margin-top: 40px;
+  }
+
+  .stud-grid .studiestart-img {
+    width: 550px;
+    max-width: 100%;
+    height: auto;
+  }
+  .stud-link {
+    display: inline-block;
+    margin-top: 14px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    color: #000;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    margin-left: 28%;
+  }
+
+  /*TEMA 3*/
+  /* =========================
+   TEMA 3 – DESKTOP ONLY
+   (scoped til .t3)
+   ========================= */
+  #tema-03 .ux-intro {
+    font-size: 28px;
+    line-height: 45px;
+    letter-spacing: 1.6px;
+    margin-bottom: 70px;
+    margin-left: -6%;
+  }
+
+  #tema-03 .ux-block {
+    margin-bottom: 90px;
+  }
+
+  #tema-03 .ux-week {
+    font-size: 36px;
+    margin: 0 0 30px;
+  }
+
+  #tema-03 .ux-grid {
+    grid-template-columns: 520px 1fr;
+    gap: 90px;
+  }
+
+  #tema-03 .ux-note {
+    padding: 68px 74px;
+    background-image: url("../images/blaa_boks.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+
+  #tema-03 .ux-note--w1 {
+    padding: 74px 86px;
+  }
+
+  #tema-03 .ux-note ul {
+    padding-left: 22px;
+  }
+
+  #tema-03 .ux-note li {
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+  }
+
+  #tema-03 .ux-label {
+    font-size: 28px;
+    font-weight: 200;
+    margin: 0 0 22px;
+  }
+
+  #tema-03 .ux-grid .ux-media img {
+    max-width: 640px;
+  }
+
+  #tema-03 .ux-assets {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 90px;
+    margin: 70px 0 30px;
+  }
+
+  #tema-03 .ux-assets .ux-media {
+    border-radius: 12px;
+    padding: 26px;
+  }
+
+  #tema-03 .ux-assets .ux-label {
+    font-size: 26px;
+    margin-bottom: 18px;
+  }
+
+  #tema-03 .ux-assets img {
+    max-width: none;
+    height: 240px;
+    object-fit: contain;
+    padding: 0;
+  }
+
+  #tema-03 .ux-summary {
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    max-width: 700px;
+    margin-top: 40px;
+  }
+
+  #tema-03 .ux-text {
+    margin-top: 40px;
+    max-width: 1000px;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+  }
+
+  #tema-03 .ux-text ul {
+    margin: 0 0 22px;
+    padding-left: 22px;
+  }
+
+  #tema-03 .ux-text p {
+    margin: 0 0 18px;
+  }
+
+  #tema-03 .ux-stud {
+    display: flex;
+    gap: 70px;
+    align-items: flex-start;
+  }
+
+  #tema-03 .ux-stud .ux-text {
+    flex: 1;
+    max-width: 620px;
+    margin-top: 0;
+  }
+
+  #tema-03 .ux-stud .ux-media {
+    align-items: flex-start;
+    margin-top: 40px;
+    background: none;
+    padding: 0;
+  }
+
+  #tema-03 .ux-media video {
+    width: 550px;
+    max-width: 100%;
+    padding: 0;
+  }
+}
