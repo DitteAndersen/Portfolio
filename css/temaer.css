@@ -373,10 +373,121 @@
   text-underline-offset: 4px;
 }
 
+/******************** TEMA 4********************************/
+
+#tema-04 {
+  font-family: "Inter", sans-serif;
+}
+
+.ui4-intro {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0.65px;
+  text-transform: uppercase;
+  margin: 0 0 26px;
+}
+
+.ui4-block {
+  margin: 0;
+}
+
+.ui4-top {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 22px;
+  align-items: start;
+}
+
+.ui4-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ui4-media video {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  display: block;
+}
+
+.ui4-note {
+  padding: 0;
+  border: 0;
+}
+
+.ui4-note ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.ui4-note li {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 35px;
+  letter-spacing: 0.75px;
+  margin: 0;
+}
+
+.ui4-assets {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 26px;
+  margin: 34px 0 26px;
+}
+
+.ui4-label {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 16px;
+}
+
+.ui4-card {
+  border-radius: 10px;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.ui4-card img {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.ui4-text {
+  margin-top: 10px;
+}
+
+.ui4-text .ui4-strong {
+  font-family: "Anton", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.65px;
+  margin: 0 0 18px;
+}
+
+.ui4-text p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 35px;
+  letter-spacing: 0.75px;
+  margin: 0 0 18px;
+}
 /**************************DESKTOP ****************************/
+/**********************************************************************************************/
 
 @media (min-width: 1024px) {
-  /**** TEMAER KOLONNER****/
   body::before {
     content: "";
     position: fixed;
@@ -457,156 +568,6 @@
     margin-bottom: 13%;
   }
 
-  /*TEMA 3******************************/
-
-  #tema-03 .ux-intro {
-    font-family: "Inter", sans-serif;
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 25px;
-    letter-spacing: 0.65px;
-    text-transform: uppercase;
-    margin: 0 0 40px;
-  }
-
-  #tema-03 .ux-block {
-    margin: 0 0 70px;
-  }
-
-  #tema-03 .ux-week {
-    font-family: "Anton", sans-serif;
-    font-size: 24px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    text-align: left;
-    margin: 50px 0 22px;
-  }
-
-  #tema-03 .ux-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 26px;
-    align-items: start;
-  }
-
-  #tema-03 .ux-note {
-    padding: 0;
-    border: 0;
-  }
-
-  #tema-03 .ux-note ul {
-    margin: 0;
-    padding-left: 18px;
-  }
-
-  #tema-03 .ux-note li {
-    font-family: "Inter", sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 35px;
-    letter-spacing: 0.75px;
-  }
-
-  #tema-03 .ux-media {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #tema-03 .ux-label {
-    font-family: "Inter", sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 34px 0 18px;
-  }
-
-  #tema-03 .ux-media img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  /* “kort” look bag billeder (som dine mobil screenshots) */
-  #tema-03 .ux-media img,
-  #tema-03 .ux-media video {
-    border-radius: 10px;
-  }
-
-  #tema-03 .ux-grid .ux-media img {
-    background: #f0ead0;
-    padding: 14px;
-  }
-
-  /* LOGO / WIREFRAME / FONTS stack på mobil */
-  #tema-03 .ux-assets {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 26px;
-    margin: 10px 0 0;
-  }
-
-  #tema-03 .ux-assets .ux-media img {
-    background: #f0ead0;
-    padding: 14px;
-  }
-
-  #tema-03 .ux-summary {
-    font-family: "Anton", sans-serif;
-    font-size: 15px;
-    line-height: 25px;
-    letter-spacing: 0.65px;
-    margin: 26px 0 0;
-  }
-
-  #tema-03 .ux-text {
-    font-family: "Inter", sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 35px;
-    letter-spacing: 0.75px;
-    margin-top: 18px;
-  }
-
-  #tema-03 .ux-text ul {
-    margin: 0 0 16px;
-    padding-left: 18px;
-  }
-
-  #tema-03 .ux-text p {
-    margin: 0 0 18px;
-  }
-
-  /* UGE 3: mobil = stack */
-  #tema-03 .ux-stud {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 26px;
-    align-items: start;
-  }
-
-  #tema-03 .ux-media video {
-    width: 100%;
-    max-width: 420px;
-    height: auto;
-    display: block;
-  }
-
-  #tema-03 .ux-link {
-    display: inline-block;
-    margin-top: 14px;
-    margin-left: 40%;
-    font-family: "Inter", sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: 0.75px;
-    color: #000;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-  }
-
   /******* INTROUGE ***************************************/
 
   .tema-content {
@@ -631,7 +592,6 @@
   }
 
   .tema-block-title {
-    font-family: "Anton", sans-serif;
     font-size: 36px;
     letter-spacing: 5px;
     text-align: left;
@@ -655,7 +615,6 @@
   .video-link {
     display: inline-block;
     margin-top: 14px;
-    font-family: "Inter", sans-serif;
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 0.75px;
@@ -664,7 +623,6 @@
     text-underline-offset: 4px;
   }
 
-  /* NOTE-BOX BLÅ */
   .note-box {
     padding: 50px 50px;
     background-image: url("../images/blaa_boks.svg");
@@ -675,7 +633,6 @@
 
   .note-box h4 {
     margin: 0 0 18px;
-    font-family: "Inter", sans-serif;
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 1.2px;
@@ -687,7 +644,6 @@
   }
 
   .note-box li {
-    font-family: "Inter", sans-serif;
     font-size: 15px;
     font-weight: 300;
     line-height: 40px;
@@ -696,15 +652,12 @@
   }
 
   .tema-block-title2 {
-    font-family: "Anton", sans-serif;
-
     font-size: 36px;
     letter-spacing: 5px;
     text-align: left;
     margin: 0 0 30px;
     margin-left: 13%;
   }
-  /* PRÆSENTATIONSKORT*/
   .card-grid {
     display: grid;
     grid-template-columns: 1fr 420px;
@@ -724,7 +677,6 @@
   }
 
   .tema-strong {
-    font-family: "Anton", sans-serif;
     font-size: 18px;
     line-height: 40px;
     letter-spacing: 1.2px;
@@ -788,7 +740,6 @@
   .stud-link {
     display: inline-block;
     margin-top: 14px;
-    font-family: "Inter", sans-serif;
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 0.75px;
@@ -798,11 +749,7 @@
     margin-left: 28%;
   }
 
-  /*TEMA 3*/
-  /* =========================
-   TEMA 3 – DESKTOP ONLY
-   (scoped til .t3)
-   ========================= */
+  /*TEMA 3******************************************/
   #tema-03 .ux-intro {
     font-size: 28px;
     line-height: 45px;
@@ -928,5 +875,126 @@
     width: 550px;
     max-width: 100%;
     padding: 0;
+  }
+  #tema-03 .ux-link {
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 40%;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  /*TEMA 4******************************************/
+
+  .ui4-intro {
+    font-size: 28px;
+    line-height: 45px;
+    letter-spacing: 1.6px;
+    margin: 0 0 70px;
+    max-width: 980px;
+    margin-left: -6%;
+  }
+
+  .ui4-block {
+    margin: 0 0 90px;
+  }
+
+  .ui4-top {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    margin-top: 10px;
+  }
+
+  .ui4-media {
+    flex: 1 1 60%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 60px;
+  }
+
+  .ui4-media video {
+    width: 100%;
+    max-width: 760px;
+    height: auto;
+    display: block;
+  }
+
+  .ui4-note {
+    flex: 0 0 460px;
+    padding: 58px 62px;
+    background-image: url("../images/blaa_boks.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120% 95%;
+  }
+
+  .ui4-note ul {
+    margin: 0;
+    padding-left: 22px;
+  }
+
+  .ui4-note li {
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    margin: 0;
+  }
+
+  .ui4-assets {
+    display: flex;
+    gap: 60px;
+    margin: 50px 0 40px;
+    align-items: flex-start;
+  }
+
+  .ui4-asset {
+    flex: 1 1 0;
+  }
+
+  .ui4-label {
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    margin: 0 0 18px;
+    text-align: center;
+  }
+
+  .ui4-card {
+    border-radius: 12px;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ui4-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    display: block;
+    border-radius: 10px;
+  }
+
+  .ui4-text {
+    max-width: 980px;
+    margin-top: 40px;
+  }
+
+  .ui4-text .ui4-strong {
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    margin: 0 0 24px;
+  }
+
+  .ui4-text p {
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    margin: 0 0 22px;
   }
 }
