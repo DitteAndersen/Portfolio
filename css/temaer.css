@@ -61,6 +61,12 @@
   font-size: 20px;
   line-height: 1;
   font-weight: 500;
+  display: inline-block;
+  transition: transform 200ms ease;
+  transform-origin: center;
+}
+.tema-item[open] .go {
+  transform: rotate(45deg);
 }
 
 .tema-row:active {

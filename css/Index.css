@@ -94,7 +94,7 @@
 
   animation: move-horizontal linear both;
   animation-timeline: --gallery;
-  animation-range: contain 0% contain 150%;
+  animation-range: contain 0% contain 200%;
 }
 
 .gallery-strip .h-card {
@@ -117,7 +117,7 @@
 
 @keyframes move-horizontal {
   to {
-    translate: -80% 0;
+    translate: -55% 0;
   }
 }
 
@@ -205,12 +205,13 @@
   gap: 24px;
 }
 
-.semesterprojekter img {
+.semesterprojekter video {
   width: 100%;
   border-radius: 10px;
   outline: 6px solid #fffdf5;
   outline-offset: -3px;
   display: block;
+  object-fit: cover;
 }
 
 /* DESKTOP */
@@ -361,7 +362,7 @@
     margin-bottom: 80px;
   }
 
-  .semesterprojekter img {
+  .semesterprojekter video {
     height: 100%;
     object-fit: cover;
   }
