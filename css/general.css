@@ -85,6 +85,75 @@ img {
   opacity: 0.6;
 }
 
+.video-link,
+.stud-link,
+.tema-content.ux .ux-link,
+.emergency-link,
+.esso-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: #000;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.tema-intro-title {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0.65px;
+  text-transform: uppercase;
+  margin: 0 0 40px;
+}
+
+.note-box h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.75px;
+  margin: 0 0 12px;
+}
+.note-box {
+  padding: 0;
+  border: 0;
+}
+
+.note-box ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.note-box li {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0.75px;
+}
+
+.tema-strong {
+  font-family: "Anton", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 35px;
+  letter-spacing: 0.75px;
+  margin: 26px 0 20px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.tema-text {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0.75px;
+}
+.tema-text ul {
+  margin: 0 0 16px;
+  padding-left: 18px;
+}
+
 /* FOOTER */
 .footer {
   background: #1d1d1b;
@@ -100,7 +169,7 @@ img {
   text-decoration: none;
 }
 
-.footer h3,
+.footer h2,
 .footer h4 {
   font-size: 20px;
   font-weight: 350;
@@ -170,6 +239,75 @@ img {
     padding: 0;
     background-color: transparent;
     padding-right: 5vw;
+  }
+  .tema-intro-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 45px;
+    letter-spacing: 1.6px;
+    margin: 0 0 70px;
+    text-transform: uppercase;
+    margin-left: -6%;
+  }
+  .note-box h4 {
+    margin: 0 0 18px;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+  }
+  .note-box {
+    padding: 50px 50px;
+    background-image: url("../images/blaa_boks.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120% 95%;
+  }
+
+  .note-box ul {
+    margin: 0;
+    padding-left: 22px;
+  }
+
+  .note-box li {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    margin: 0;
+  }
+
+  .video-link,
+  .studio-link,
+  .ux-link,
+  .emergency-link,
+  .esso-link {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #000;
+  }
+  .tema-strong {
+    font-family: "Anton", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 0.75px;
+    margin: 26px 0 20px;
+    margin-top: 10%;
+    margin-bottom: 60px;
+  }
+  .tema-text {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0.75px;
+    margin-bottom: 10%;
+  }
+  .tema-strong,
+  .tema-text {
+    max-width: 90ch;
   }
 
   .footer {
