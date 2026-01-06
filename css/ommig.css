@@ -203,7 +203,7 @@ main img.om-mig-boelge {
   max-width: none;
 }
 
-/* galleri (mobile) */
+/* galleri */
 .galleri {
   padding: 60px 20px;
   max-width: 420px;
@@ -393,7 +393,7 @@ main img.om-mig-boelge {
     margin-bottom: 15%;
   }
 
-  /* galleri (desktop) */
+  /* galleri  */
   .galleri {
     max-width: 1100px;
     margin: 0 auto;

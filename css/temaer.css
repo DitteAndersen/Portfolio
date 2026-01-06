@@ -140,8 +140,8 @@
   font-size: 24px;
   letter-spacing: 5px;
   text-align: center;
-  margin: 0 0 30px;
-  margin-left: 15%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .tema-block-title2 {
@@ -669,7 +669,7 @@
     background-image: url("../svg/blaa_boks.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 120% 95%;
+    background-size: contain;
   }
 
   .ui4-note ul {

@@ -264,7 +264,10 @@
   }
 
   .digital-rejse {
-    padding: 102px 40px 0 63px;
+    padding-left: 90px;
+    padding-top: 102px;
+    padding-right: 40px;
+    padding-bottom: 0;
     grid-template-columns: 515px 1fr;
     grid-template-rows: auto 1fr;
     grid-template-areas:
