@@ -73,6 +73,17 @@
   background: rgba(113, 105, 81, 0.15);
 }
 
+#tema-04 .titel {
+  overflow-wrap: anywhere;
+}
+.tema-item > summary {
+  list-style: none;
+}
+
+.tema-item > summary::-webkit-details-marker {
+  display: none;
+}
+
 .portfolio-hero {
   padding: 40px 16px;
 }
