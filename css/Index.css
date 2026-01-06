@@ -1,78 +1,52 @@
-/* MOBIL */
-
 .hero {
   position: relative;
   overflow: hidden;
-  height: 980px;
+  height: 100svh;
 }
 
-/* SVG */
 .hero-line {
   position: absolute;
-  left: -120px;
-  top: 10px;
-  width: 760px !important;
-  height: 980px !important;
-  max-width: none !important;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
   object-fit: cover;
-  object-position: left top;
-  z-index: 0;
+  object-position: center;
   pointer-events: none;
 }
 
-/* tekst-wrapper */
-.hero-mid {
-  position: relative;
-  z-index: 1;
-}
-
-/* PORTFOLIO */
 .hero-title {
-  position: absolute;
-  left: 17px;
-  top: 280px;
-
   font-family: "Anton", sans-serif;
-  font-size: 75px;
-  font-weight: 400;
-  letter-spacing: 13.5px;
-  margin: 0;
+  margin-top: 40%;
+  font-size: 60px;
+  letter-spacing: 11px;
+  line-height: 1;
+  margin-left: 5%;
 }
 
 .hero-undertekst {
-  position: absolute;
-  left: 44px;
-  top: 475px;
-
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 200;
-  line-height: 40px;
+  line-height: 35px;
   letter-spacing: 2px;
-  margin: 0;
-  color: #000;
+  margin-top: 30%;
 }
 
 .hero-scroll {
-  position: absolute;
-  left: 50%;
-  top: 850px;
-  transform: translateX(-50%);
-  z-index: 9999;
-
-  display: block !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-
-  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
   font-weight: 200;
   letter-spacing: 2.4px;
+  margin-top: 65%;
 }
 
 /*SCROLL GALLERY*/
 
 .gallery-strip {
-  margin: 40px 0;
+  margin-top: 0;
+  margin-bottom: 40px;
   height: auto;
   view-timeline: --gallery block;
 }
@@ -218,7 +192,7 @@
 
 @media (min-width: 1024px) {
   .hero {
-    height: 976px;
+    height: 900px;
     overflow: hidden;
   }
 
@@ -267,7 +241,7 @@
   .hero-scroll {
     position: absolute;
     left: 50%;
-    top: 720px;
+    top: 700px;
     transform: translateX(-50%);
     font-size: 16px;
     font-weight: 200;
@@ -290,7 +264,10 @@
   }
 
   .digital-rejse {
-    padding: 102px 40px 0 63px;
+    padding-left: 90px;
+    padding-top: 102px;
+    padding-right: 40px;
+    padding-bottom: 0;
     grid-template-columns: 515px 1fr;
     grid-template-rows: auto 1fr;
     grid-template-areas:
