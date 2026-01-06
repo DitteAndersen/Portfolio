@@ -29,7 +29,7 @@
   left: 55%;
   top: 45%;
   transform: translate(-50%, -50%);
-  width: 390px !important;
+  width: 330px !important;
   height: auto;
   pointer-events: none;
   z-index: 0;
@@ -274,7 +274,7 @@ main img.om-mig-boelge {
   }
 
   .om-mig-cirkel {
-    width: 400px;
+    width: 400px !important;
     left: 50%;
     top: 50%;
     transform: translate(-40%, -55%);
